@@ -1,0 +1,209 @@
+[
+  {
+    "kind": "index",
+    "canonicalName": "Nifty 50",
+    "aliases": ["Nifty50", "Nifty-50", "Nifty 50 index", "Nifty"],
+    "gated": ["Nifty"],
+    "ticker": "NIFTY50",
+    "yahooSymbol": "^NSEI",
+    "tvSymbol": "NSE:NIFTY"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Bank",
+    "aliases": ["Bank Nifty", "BankNifty", "Banknifty", "Nifty Bank index"],
+    "gated": [],
+    "ticker": "BANKNIFTY",
+    "yahooSymbol": "^NSEBANK",
+    "tvSymbol": "NSE:BANKNIFTY"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Sensex",
+    "aliases": ["S&P BSE Sensex", "BSE Sensex", "Sensex 30", "BSE 30"],
+    "gated": [],
+    "ticker": "SENSEX",
+    "yahooSymbol": "^BSESN",
+    "tvSymbol": "BSE:SENSEX"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "India VIX",
+    "aliases": ["IndiaVIX", "Nifty VIX", "VIX"],
+    "gated": ["VIX"],
+    "ticker": "INDIAVIX",
+    "yahooSymbol": "^INDIAVIX",
+    "tvSymbol": "NSE:INDIAVIX"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Next 50",
+    "aliases": ["Nifty Junior", "NiftyNext50", "Nifty Next50", "Nifty Next-50"],
+    "gated": [],
+    "ticker": "NIFTYNEXT50",
+    "yahooSymbol": "^NSMIDCP",
+    "tvSymbol": "NSE:NIFTYJR"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Financial Services",
+    "aliases": ["Fin Nifty", "FinNifty", "Nifty Fin Services", "Nifty Financial Services index"],
+    "gated": [],
+    "ticker": "FINNIFTY",
+    "yahooSymbol": "NIFTY_FIN_SERVICE.NS",
+    "tvSymbol": "NSE:CNXFINANCE"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty IT",
+    "aliases": ["Nifty IT index", "CNX IT"],
+    "gated": [],
+    "ticker": "NIFTYIT",
+    "yahooSymbol": "^CNXIT",
+    "tvSymbol": "NSE:CNXIT"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Auto",
+    "aliases": ["Nifty Auto index"],
+    "gated": [],
+    "ticker": "NIFTYAUTO",
+    "yahooSymbol": "^CNXAUTO",
+    "tvSymbol": "NSE:CNXAUTO"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Pharma",
+    "aliases": ["Nifty Pharma index"],
+    "gated": [],
+    "ticker": "NIFTYPHARMA",
+    "yahooSymbol": "^CNXPHARMA",
+    "tvSymbol": "NSE:CNXPHARMA"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty FMCG",
+    "aliases": ["Nifty FMCG index"],
+    "gated": [],
+    "ticker": "NIFTYFMCG",
+    "yahooSymbol": "^CNXFMCG",
+    "tvSymbol": "NSE:CNXFMCG"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Metal",
+    "aliases": ["Nifty Metal index"],
+    "gated": [],
+    "ticker": "NIFTYMETAL",
+    "yahooSymbol": "^CNXMETAL",
+    "tvSymbol": "NSE:CNXMETAL"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Energy",
+    "aliases": ["Nifty Energy index"],
+    "gated": [],
+    "ticker": "NIFTYENERGY",
+    "yahooSymbol": "^CNXENERGY",
+    "tvSymbol": "NSE:CNXENERGY"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Realty",
+    "aliases": ["Nifty Realty index"],
+    "gated": [],
+    "ticker": "NIFTYREALTY",
+    "yahooSymbol": "^CNXREALTY",
+    "tvSymbol": "NSE:CNXREALTY"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Media",
+    "aliases": ["Nifty Media index"],
+    "gated": [],
+    "ticker": "NIFTYMEDIA",
+    "yahooSymbol": "^CNXMEDIA",
+    "tvSymbol": "NSE:CNXMEDIA"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty PSU Bank",
+    "aliases": ["Nifty PSU Bank index", "PSU Bank Nifty"],
+    "gated": [],
+    "ticker": "NIFTYPSUBANK",
+    "yahooSymbol": "^CNXPSUBANK",
+    "tvSymbol": "NSE:CNXPSUBANK"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Infrastructure",
+    "aliases": ["Nifty Infra", "Nifty Infra index"],
+    "gated": [],
+    "ticker": "NIFTYINFRA",
+    "yahooSymbol": "^CNXINFRA",
+    "tvSymbol": "NSE:CNXINFRA"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty 100",
+    "aliases": ["Nifty100", "CNX 100"],
+    "gated": [],
+    "ticker": "NIFTY100",
+    "yahooSymbol": "^CNX100",
+    "tvSymbol": "NSE:CNX100"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty 200",
+    "aliases": ["Nifty200", "CNX 200"],
+    "gated": [],
+    "ticker": "NIFTY200",
+    "yahooSymbol": "^CNX200",
+    "tvSymbol": "NSE:CNX200"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty 500",
+    "aliases": ["Nifty500", "CNX 500"],
+    "gated": [],
+    "ticker": "NIFTY500",
+    "yahooSymbol": "^CRSLDX",
+    "tvSymbol": "NSE:CNX500"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Midcap 50",
+    "aliases": ["Nifty Midcap50", "Midcap Nifty 50"],
+    "gated": [],
+    "ticker": "NIFTYMIDCAP50",
+    "yahooSymbol": "^NSEMDCP50",
+    "tvSymbol": "NSE:NIFTYMIDCAP50"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Midcap 100",
+    "aliases": ["Nifty Midcap100", "CNX Midcap"],
+    "gated": [],
+    "ticker": "NIFTYMIDCAP100",
+    "yahooSymbol": "NIFTY_MIDCAP_100.NS",
+    "tvSymbol": "NSE:CNXMIDCAP"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Midcap 150",
+    "aliases": ["Nifty Midcap150"],
+    "gated": [],
+    "ticker": "NIFTYMIDCAP150",
+    "yahooSymbol": "NIFTYMIDCAP150.NS",
+    "tvSymbol": "NSE:NIFTYMIDCAP150"
+  },
+  {
+    "kind": "index",
+    "canonicalName": "Nifty Smallcap 250",
+    "aliases": ["Nifty Smallcap250", "Nifty Smlcap 250"],
+    "gated": [],
+    "ticker": "NIFTYSMALLCAP250",
+    "yahooSymbol": "NIFTYSMLCAP250.NS",
+    "tvSymbol": "NSE:NIFTYSMLCAP250"
+  }
+]

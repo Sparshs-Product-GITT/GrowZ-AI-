@@ -1,0 +1,110 @@
+:host {
+  all: initial;
+}
+
+.gsh-mini-popup {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  width: 200px;
+  background: #1c1f26;
+  color: #f5f5f7;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  padding: 12px 14px;
+  box-sizing: border-box;
+}
+
+.gsh-ticker {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 2px;
+}
+
+.gsh-name {
+  font-size: 11px;
+  color: #9a9fa8;
+  margin: 0 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gsh-ltp {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.gsh-change {
+  font-size: 12px;
+  margin: 2px 0 10px;
+}
+
+.gsh-change.positive {
+  color: #00c48c;
+}
+
+.gsh-change.negative {
+  color: #f0554a;
+}
+
+.gsh-change.neutral {
+  color: #9a9fa8;
+}
+
+.gsh-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 0 0 10px;
+}
+
+.gsh-action-row {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.gsh-view-chart-btn {
+  flex: 1;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.gsh-view-chart-btn:hover {
+  background: #2563eb;
+}
+
+.gsh-star-btn {
+  flex-shrink: 0;
+  width: 32px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #9a9fa8;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.gsh-star-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #f5f5f7;
+}
+
+.gsh-star-btn.starred {
+  color: #f5c451;
+}
+
+.gsh-loading,
+.gsh-error {
+  font-size: 12px;
+  color: #9a9fa8;
+  padding: 8px 0;
+}

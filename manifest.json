@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "GrowZ AI",
+  "version": "0.1.0",
+  "description": "Stop scrolling, start knowing. GrowZ AI turns every stock name you read into a live price, a chart, and an AI-picked headline \u2014 instantly.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://fc.yahoo.com/*",
+    "https://query1.finance.yahoo.com/*",
+    "https://query2.finance.yahoo.com/*",
+    "https://news.google.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GrowZ AI \u2014 Wishlist",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://economictimes.indiatimes.com/*",
+        "https://www.moneycontrol.com/*",
+        "https://www.livemint.com/*",
+        "https://www.business-standard.com/*",
+        "https://www.cnbctv18.com/*",
+        "https://www.financialexpress.com/*",
+        "https://www.ndtvprofit.com/*",
+        "https://www.businesstoday.in/*",
+        "https://www.thehindubusinessline.com/*",
+        "https://www.zeebiz.com/*",
+        "https://www.bqprime.com/*",
+        "https://www.reuters.com/*",
+        "https://www.reddit.com/*",
+        "https://old.reddit.com/*",
+        "https://sh.reddit.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

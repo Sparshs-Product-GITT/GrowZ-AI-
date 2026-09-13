@@ -1,0 +1,24 @@
+{
+  "contextKeywords": [
+    "shares", "share price", "stock", "stocks", "nse", "bse",
+    "ltd", "limited", "q1", "q2", "q3", "q4", "quarter", "quarterly results",
+    "results", "revenue", "profit", "net profit", "earnings", "ipo", "listed",
+    "market cap", "market capitalisation", "market capitalization", "dividend",
+    "52-week", "trading", "investors", "rally", "surged", "slumped", "rupees",
+    "crore", "target price", "brokerage", "analyst", "buy rating", "sell rating",
+    "index", "indices", "benchmark", "bourses", "points", "sensex", "equities",
+    "gainers", "losers", "intraday", "futures", "expiry", "open interest",
+    "sectoral", "midcap", "smallcap", "fii", "dii", "closed higher", "closed lower",
+    "nifty"
+  ],
+  "ambiguousTickers": [
+    "BSE",
+    "TITAN",
+    "PAGEIND",
+    "ROUTE",
+    "PERSISTENT",
+    "FORCEMOT",
+    "STARHEALTH",
+    "TRENT"
+  ]
+}

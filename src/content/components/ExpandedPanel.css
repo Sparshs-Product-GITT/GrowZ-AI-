@@ -1,0 +1,303 @@
+:host {
+  all: initial;
+}
+
+.gsh-panel {
+  width: 400px;
+  height: 100vh;
+  background: #14161c;
+  color: #f5f5f7;
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.gsh-panel-header {
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
+
+.gsh-panel-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gsh-panel-ticker {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.gsh-panel-title-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.gsh-panel-close,
+.gsh-panel-star {
+  background: transparent;
+  border: none;
+  color: #9a9fa8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  font-family: inherit;
+}
+
+.gsh-panel-close:hover,
+.gsh-panel-star:hover {
+  color: #f5f5f7;
+}
+
+.gsh-panel-star.starred,
+.gsh-panel-star.starred:hover {
+  color: #f5c451;
+}
+
+.gsh-panel-name {
+  font-size: 12px;
+  color: #9a9fa8;
+  margin-top: 2px;
+}
+
+.gsh-panel-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.gsh-panel-ltp {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.gsh-panel-change {
+  font-size: 13px;
+}
+
+.gsh-panel-change.positive {
+  color: #00c48c;
+}
+
+.gsh-panel-change.negative {
+  color: #f0554a;
+}
+
+.gsh-panel-change.neutral {
+  color: #9a9fa8;
+}
+
+.gsh-panel-kpi-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.gsh-panel-kpi {
+  font-size: 12px;
+  color: #c7cad1;
+}
+
+.gsh-panel-widget {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gsh-chart-canvas {
+  flex: 1;
+  min-height: 0;
+}
+
+.gsh-panel-tv-link {
+  /* Trails the price and change, pinned to the right edge of the row. */
+  flex-shrink: 0;
+  margin-left: auto;
+  /* The row is baseline-aligned for the price and change; the pill reads
+     better optically centred against the large price. */
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+  color: #c7cad1;
+  text-decoration: none;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.gsh-panel-tv-link:hover {
+  background: rgba(59, 130, 246, 0.18);
+  border-color: rgba(59, 130, 246, 0.32);
+  color: #ffffff;
+}
+
+.gsh-panel-tv-icon {
+  width: 11px;
+  height: 11px;
+}
+
+.gsh-chart-error-msg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  font-size: 13px;
+  color: #9a9fa8;
+}
+
+.gsh-panel-news {
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.gsh-news-toggle {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: linear-gradient(100deg, rgba(59, 130, 246, 0.32), rgba(59, 130, 246, 0.18) 55%, rgba(0, 196, 140, 0.22));
+  color: #dbeafe;
+  border: none;
+  padding: 11px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 120ms ease, filter 120ms ease;
+}
+
+.gsh-news-toggle:hover {
+  color: #ffffff;
+  filter: brightness(1.25);
+}
+
+.gsh-news-spark {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  color: #93c5fd;
+  filter: drop-shadow(0 0 4px rgba(59, 130, 246, 0.75));
+  animation: gsh-spark-pulse 2.6s ease-in-out infinite;
+}
+
+.gsh-news-toggle:hover .gsh-news-spark {
+  color: #ffffff;
+}
+
+@keyframes gsh-spark-pulse {
+  0%, 100% { opacity: 0.75; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.12); }
+}
+
+.gsh-news-chevron {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  margin-left: auto;
+  opacity: 0.7;
+  transition: transform 160ms ease;
+}
+
+.gsh-news-open .gsh-news-chevron {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gsh-news-spark {
+    animation: none;
+  }
+}
+
+.gsh-news-body {
+  /* Caps the section at roughly a third of the panel so the chart below it
+     never gets squeezed out by a long list. */
+  max-height: 34vh;
+  overflow-y: auto;
+  padding: 0 14px;
+}
+
+.gsh-news-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.gsh-news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.gsh-news-item:last-child {
+  border-bottom: none;
+}
+
+.gsh-news-title {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
+.gsh-news-title:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.gsh-news-summary {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #c7cad1;
+}
+
+.gsh-news-meta {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  color: #9a9fa8;
+  text-decoration: none;
+}
+
+.gsh-news-meta:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.gsh-news-status,
+.gsh-news-note {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #9a9fa8;
+  padding: 10px 0;
+}
+
+.gsh-news-note {
+  padding-bottom: 0;
+}
